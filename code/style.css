@@ -10,13 +10,39 @@
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-    
+    padding:1%;
 }
 
 body {
     background-image: url(../images/websiteBackground.jpg);
     background-size: cover ;
-    background-repeat: no-repeat;
     height: 100%;
+}
 
+img {
+    width: 90%;
+    height: 90%;
+    object-fit: fill;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.exerpt {
+    font-style:italic;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.youtube iframe {
+    width: 100vw;
+    height: calc(100vw/1.77);
+}
+
+.lotr {
+    font-family : Lucida Handwriting;
+}
+
+.got {
+    font-family: 	Brush Script MT
 }
