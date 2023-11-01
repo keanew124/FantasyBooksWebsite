@@ -33,16 +33,11 @@ img {
     margin-right: 15%;
 }
 
-
-.youtube iframe {
-    width: 100vw;
-    height: calc(100vw/1.77);
-}
-
 .lotr {
     font-family : Lucida Handwriting;
 }
 
 .got {
-    font-family: 	Brush Script MT
+    font-family: 	Brush Script MT;
+    font-size:x-large
 }
