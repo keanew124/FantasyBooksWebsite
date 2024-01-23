@@ -9,6 +9,7 @@ The Lord of the Rings: The Fellowship of the Ring Trailer: https://www.youtube.c
 Game of Thrones Season 1 Trailer: https://www.youtube.com/watch?v=gcTkNV5Vg1E
 
 References for Images
+homepagebackground.jpg:https://www.wallpaperflare.com/digital-art-artwork-fantasy-art-planet-sun-sunlight-nature-wallpaper-ysygf
 websiteBackground.jpg: https://mobile.alphacoders.com/wallpapers/view/668810/Fantasy-Lord-Of-The-Rings-Phone-Wallpaper
 lotrBooks.png: https://www.bbc.co.uk/news/uk-england-hereford-worcester-59898905
 gotBooks.jpg: https://www.pinterest.com/pin/143270831877093658/
