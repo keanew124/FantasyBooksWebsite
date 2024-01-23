@@ -21,3 +21,6 @@ books.csv: https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks
 
 Reference for Bootstrap Navbar Code:
 https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works
+
+Reference for JQuery CSV Parser Library:
+https://github.com/evanplaice/jquery-csv/
