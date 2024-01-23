@@ -13,6 +13,8 @@ homepagebackground.jpg:https://www.wallpaperflare.com/digital-art-artwork-fantas
 websiteBackground.jpg: https://mobile.alphacoders.com/wallpapers/view/668810/Fantasy-Lord-Of-The-Rings-Phone-Wallpaper
 lotrBooks.png: https://www.bbc.co.uk/news/uk-england-hereford-worcester-59898905
 gotBooks.jpg: https://www.pinterest.com/pin/143270831877093658/
+americangodsbook.jpg:https://www.amazon.co.uk/American-Gods-Neil-Gaiman/dp/0380973650
+generalbackground.jpeg:https://www.pinterest.co.uk/pin/626070785690410384/
 
 Reference for Dataset:
 books.csv: https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks
