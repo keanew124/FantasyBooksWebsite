@@ -5,7 +5,7 @@ Open homepage.html using VSCode and launch it using liveserver, navigate between
 
 Dataset is within the code folder
 
-git log is found within the main repository
+git log is found within the main repository in log.log
 
 Please find the references I used below.
 
