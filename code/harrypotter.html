@@ -38,9 +38,6 @@
                         <li><a class="dropdown-item" href="lotr.html" >Lord of the Rings</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="quiz.html">Quiz</a>
-                    </li>
                 </div>
                 </div>
             </nav>
@@ -57,6 +54,19 @@
             <br>
             <p>The series consists of 7 books, which are all well rated, as seen by the graph below. (Data sourced from Goodreads)</p>
             <svg width = "600" height = "600"></svg>
+            <p>Please select a book from the list to learn more about it!   
+                <select id="dropdown" onchange="message('books.csv')" >
+                    <option value="none">Select an Option</option>
+                    <option value="book1">Book 1</option>
+                    <option value="book2">Book 2</option>
+                    <option value="book3">Book 3</option>
+                    <option value="book4">Book 4</option>
+                    <option value="book5">Book 5</option>
+                    <option value="book6">Book 6</option>
+                    <option value="book7">Book 7</option>
+                </select>
+            </p>
+            <div id="container"></div>
           </div>
     </body>
 </html>

@@ -45,3 +45,36 @@ function hpRatings(csvFilePath){
 }
 
 hpRatings("books.csv")
+
+function message(csvFilePath){
+    d3.csv(csvFilePath).then(data => {
+        var name1 = data[23]["title"],
+            name2 = data[4255]["title"],
+            name3 = data[4256]["title"],
+            authors1 = data[23]["authors"],
+            authors2 = data[4255]["authors"],
+            authors3 = data[4256]["authors"],
+            pages1 = data[23]["  num_pages"],
+            pages2 = data[4255]["  num_pages"],
+            pages3 = data[4256]["  num_pages"];
+
+
+        const selectedOption = document.getElementById("dropdown").value;
+        const container = document.getElementById("container");
+        switch(selectedOption){
+            case "none":
+                container.innerHTML = "";
+                break;
+            case "book1":
+                container.innerHTML = "<p>Name: " + name1 +"</p><p>Author: " + authors1 +"</p><p>Pages: " + pages1 + "</p>"
+                break;
+            case "book2":
+                container.innerHTML = "<p>Name: " + name2 +"</p><p>Author: " + authors2 +"</p><p>Pages: " + pages2 + "</p>"
+                break;
+            case "book3":
+                container.innerHTML = "<p>Name: " + name3 +"</p><p>Author: " + authors3 +"</p><p>Pages: " + pages3 + "</p>"
+                break;
+        }
+ })
+
+}
