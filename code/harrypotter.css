@@ -1,24 +1,26 @@
 body {
-    background-image: url(../images/generalbackground.jpeg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-image: url(../images/hpbackground.png);
+    background-size: cover ;
+    height: 100%;
 }
 
 .title {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-size:x-large;
+    width: 75%;
+    padding-top: 70px;
+    font-size:xxx-large;
     font: italic small-caps bold 16px/2 cursive;
+    text-shadow: 2px 2px #ffffff;
 }
 
 .body {
     text-align: center;
-    background-color: rgba(182, 190, 190, 0.5);
+    background-color: rgba(182, 190, 190, 0.8);
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-    padding:1%;
     font-size:larger;
     font: italic small-caps bold 16px/2 cursive;
 }

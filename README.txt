@@ -23,5 +23,5 @@ books.csv: https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks
 Reference for Bootstrap Navbar Code:
 https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works
 
-Reference for JQuery CSV Parser Library:
-https://github.com/evanplaice/jquery-csv/
+Reference for Bar Graph Code (Modified in actual code but used as reference for construction of Graph):
+https://www.educative.io/answers/how-to-create-a-bar-chart-using-d3
