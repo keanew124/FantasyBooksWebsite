@@ -1,5 +1,24 @@
 body {
     background-image: url(../images/generalbackground.jpeg);
-    background-size: cover ;
-    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:x-large;
+    font: italic small-caps bold 16px/2 cursive;
+}
+
+.body {
+    text-align: center;
+    background-color: rgba(182, 190, 190, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding:1%;
+    font-size:larger;
+    font: italic small-caps bold 16px/2 cursive;
 }
