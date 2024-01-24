@@ -1,14 +1,14 @@
-//function that reads csv file, then creates a bar chart
+/**function that reads csv file, then creates a bar chart*/
 function hpRatings(csvFilePath){
     d3.csv(csvFilePath).then(data => {
-        //sets variables to a certain piece of data in the csv, then makes it a list
+        /**sets variables to a certain piece of data in the csv, then makes it a list*/
         var rating1 = data[23]["average_rating"],
             rating2 = data[4255]["average_rating"],
             rating3 = data[4256]["average_rating"];
         var ratinglist = [];
         ratinglist.push(rating1, rating2, rating3);
         console.log(ratinglist);
-        //creates bar chart
+        /**creates bar chart*/
         var svg = d3.select("svg"),
             margin = 200,
             width = svg.attr("width") - margin,
@@ -17,12 +17,12 @@ function hpRatings(csvFilePath){
             yScale = d3.scaleLinear().range([height, 0]);
             xScale = d3.scaleBand().range([0, width]).padding(0.5),
             yScale = d3.scaleLinear().range([height, 0]);
-        //sets the scale of the chart axis
+        /**sets the scale of the chart axis*/
         xScale.domain(["Book 1", "Book 2", "Book 3"]);
         yScale.domain([0, 5]);
         var g = svg.append("g")
         .attr("transform", "translate(" + 100 + "," + 100 + ")");
-        //labels the axis
+        /**labels the axis*/
         g.append("g")
          .attr("transform", "translate(0," + height + ")")
          .call(d3.axisBottom(xScale).tickFormat(function(d){
@@ -35,7 +35,7 @@ function hpRatings(csvFilePath){
              return d + " Stars";
          }).ticks(4));
 
-        //makes the bars
+        /**makes the bars*/
         g.selectAll(".bar")
          .data(ratinglist)
          .enter().append("rect")
@@ -47,12 +47,12 @@ function hpRatings(csvFilePath){
  })
 
 }
-//generates the bar chart
+/**generates the bar chart*/
 hpRatings("books.csv")
 
-//function that displays a message when a certain option of the dropdown list is selected
+/**function that displays a message when a certain option of the dropdown list is selected*/
 function message(csvFilePath){
-    //reads csv file then sets variables to corrensponding data in the csv file
+    /**reads csv file then sets variables to corrensponding data in the csv file*/
     d3.csv(csvFilePath).then(data => {
         var name1 = data[23]["title"],
             name2 = data[4255]["title"],
@@ -64,11 +64,11 @@ function message(csvFilePath){
             pages2 = data[4255]["  num_pages"],
             pages3 = data[4256]["  num_pages"];
 
-        //checks which value of the dropdown menu is selected by the user via DOM
+        /**checks which value of the dropdown menu is selected by the user via DOM*/
         const selectedOption = document.getElementById("dropdown").value;
-        //sets object (container) in which we are going to put our text
+        /**sets object (container) in which we are going to put our text*/
         const container = document.getElementById("container");
-        //control statement(switch) that will display certian text based on the selected value in the dropdown menu
+        /**control statement(switch) that will display certian text based on the selected value in the dropdown menu*/
         switch(selectedOption){
             case "none":
                 container.innerHTML = "";
