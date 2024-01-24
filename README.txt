@@ -16,6 +16,7 @@ gotBooks.jpg: https://www.pinterest.com/pin/143270831877093658/
 americangodsbook.jpg:https://www.amazon.co.uk/American-Gods-Neil-Gaiman/dp/0380973650
 generalbackground.jpeg:https://www.pinterest.co.uk/pin/626070785690410384/
 hpbackground.jpeg:https://www.wizardingworld.com/features/try-out-our-new-harry-potter-video-call-backgrounds
+lotrbackground.jpg:https://www.artstation.com/artwork/k4xrd
 
 Reference for Dataset:
 books.csv: https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks
